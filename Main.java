@@ -62,7 +62,7 @@ class Lab1 {
   }
 
   //max(int a, int b): Use an if-statement to return the maximum value.
-  static int max(int a, int b){
+  public int max(int a, int b){
     if(a > b){
       return a;
     }
@@ -72,7 +72,7 @@ class Lab1 {
   }
 
   //min(int a, int b): Use an if-statement to return the minimum value.
-  static int min(int a, int b){
+  public int min(int a, int b){
     if(a < b){
       return a;
     }
@@ -82,7 +82,7 @@ class Lab1 {
   }
 
   //sum(int[] nums): Return the sum of all values in the array.
-  static int sum(int[] nums){
+  public int sum(int[] nums){
     int total = 0;
     for(int i=0; i < nums.length; i++){
       total += nums[i];
@@ -91,7 +91,7 @@ class Lab1 {
   }
 
   //average(int[] nums): Use a foreach loop to return the average.
-  static double average(int[] nums){
+  public double average(int[] nums){
     double total = 0;
     for (int num: nums){
       total += num;
@@ -100,7 +100,7 @@ class Lab1 {
   }
 
   //max(int[] nums): Use a for loop to return the maximum value.
-  static int max(int[] nums){
+  public int max(int[] nums){
     int maxnum = nums[0];
     for(int i=0; i < nums.length - 1; i++){
       if(nums[i] > maxnum){
@@ -111,7 +111,7 @@ class Lab1 {
   }
 
   //min(int[] nums): Use a for loop to return the minimum value.
-  static int min(int[] nums){
+  public int min(int[] nums){
     int minnum = nums[0];
     for(int i=0; i < nums.length - 1; i++){
       if(nums[i] < minnum){
